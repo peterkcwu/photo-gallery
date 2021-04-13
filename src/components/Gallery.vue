@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 <template>
   <div class="gallery">
     <div class="gallery-panel"
@@ -34,8 +35,9 @@ export default {
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     grid-gap: 1rem;
     max-width: 80rem;
-    margin: 5rem auto;
+    margin: 4px auto;
     padding: 0 5rem;
+    background-image: url("https://www.freepik.com/free-photo/perspective-exterior-nobody-empty-box_1123169.htm#page=1&query=empty%20background&position=15");
   }
 
   .gallery-panel img {
@@ -44,4 +46,7 @@ export default {
     object-fit: cover;
     border-radius: 0.75rem;
   }
+    .body {
+    background-color: #cccc1c;
+ }
 </style>
